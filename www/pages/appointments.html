@@ -1,0 +1,85 @@
+<div class="page" data-name="appointment">
+  <div class="navbar nav_top">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Appointments</div>
+      <div class="right">
+          <a href="#" data-popup="#my-popup" class="link icon-only popup-open">
+            <i class="icon f7-icons ios-only">add</i>
+            <i class="icon material-icons md-only">add</i>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="page-content">
+      
+        <div class="list virtual-list media-list"></div>
+
+
+  </div>
+
+
+    <!-- Popup -->
+    <div class="popup" id="my-popup">
+      <div class="view">
+        <div class="page">
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="title">Add New Appointment</div>
+              <div class="right">
+                <a href="#" class="link popup-close">Close</a>
+              </div>
+            </div>
+          </div>
+          <div class="page-content">
+            <div class="block">
+              <form class="list" id="form-medication">
+                <ul>
+                  <li>
+                    <div class="item-content item-input">
+                      <div class="item-inner">
+                        <div class="item-title item-label">Clinic</div>
+                        <div class="item-input-wrap">
+                          <input type="text" id="names" name="names" placeholder="Enter the Clinic name">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                      <div class="item-content item-input">
+                        <div class="item-inner">
+                          <div class="item-title item-label">Doctor</div>
+                          <div class="item-input-wrap">
+                            <input type="text" id="doctor" name="doctor" placeholder="Enter the Doctor name">
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  <li>
+                    <div class="item-content item-input">
+                      <div class="item-inner">
+                        <div class="item-title item-label">Date Time</div>
+                        <div class="item-input-wrap">
+                          <input type="datetime-local" id="sdate" name="sdate">
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+  
+     
+                  <p><a href="#" class="col button button-fill" onclick="saveAppointment()">Save Data</a></p>
+                </ul>
+              </form>
+
+   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

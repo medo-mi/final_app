@@ -41,3 +41,7 @@
 #mlist ul{ list-style: square}
 #mlist ul li{ margin-bottom: 5px;}
 .md .navbar{background-color: #19b8a4 !important;}
+.bmi_result{ text-align: center; padding: 5px;}
+.r_green{ background-color: #51d568}
+.r_yellow{background-color: #fdc938}
+.r_red{background-color: #f81d45; color: #fff;}
